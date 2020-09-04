@@ -37,6 +37,11 @@ body {
   }
 }
 
+.border0{
+  border: 0px;
+  border-radius: 30px;
+}
+
 .container {
   width: $container-width;
   margin: 0 auto;
