@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './components/header/Header';
 import Content from './components/content/Content';
+import { Route } from 'react-router-dom';
+import Carts from './components/carts/Carts';
 
 
 let App = () => {
@@ -8,8 +10,8 @@ let App = () => {
     <div className="wrapper">
       <Header />
       <div className="content">
-        <Content />
-
+        <Route exact path='/' component={Content} />
+        <Route exact path='/carts' component={Carts} />
       </div>
     </div>
   );
