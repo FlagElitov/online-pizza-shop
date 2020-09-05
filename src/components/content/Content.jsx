@@ -6,7 +6,7 @@ import Menu from './menu/Menu'
 
 let Content = () => {
 	return (
-		<div className="content">
+	
 			<div className="container">
 				<Menu />
 				<h2 className="content__title">Все пиццы</h2>
@@ -347,7 +347,6 @@ let Content = () => {
 					</div>
 				</div>
 			</div>
-		</div>
 	)
 }
 

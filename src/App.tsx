@@ -7,7 +7,10 @@ let App = () => {
   return (
     <div className="wrapper">
       <Header />
-      <Content />
+      <div className="content">
+        <Content />
+
+      </div>
     </div>
   );
 }
