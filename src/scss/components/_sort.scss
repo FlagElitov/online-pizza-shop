@@ -2,12 +2,20 @@
 
 .sort {
   position: relative;
+  
   &__label {
     display: flex;
     align-items: center;
 
     svg {
-      margin-right: 8px;
+      margin-right: 8px; 
+      transform:rotate(180deg);
+      transition-duration: .2s;
+      &.rotated{
+        transform:rotate(0);
+        transition-duration: .2s;
+      }
+      
     }
 
     b {
