@@ -46,11 +46,8 @@ const PizzaBlock = ({ name, imageUrl, price, types, sizes }) => {
 								active: activeSizes === index,
 								disabled: !sizes.includes(size),
 
-							})}>{size} см</li>)}
+							})}>{size} см.</li>)}
 
-					{/* <li className="active">26 см.</li>
-					<li className="disabled">30 см.</li>
-					<li>40 см.</li> */}
 				</ul>
 			</div>
 			<div className="pizza-block__bottom">
