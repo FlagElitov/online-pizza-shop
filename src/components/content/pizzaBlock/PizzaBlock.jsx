@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import classNames from 'classnames'
 
-const PizzaBlock = ({ name, imageUrl, price, types, sizes }) => {
 
+const PizzaBlock = ({ name, imageUrl, price, types, sizes }) => {
 
 
 	const aviableSizes = [26, 30, 40]
@@ -29,7 +29,7 @@ const PizzaBlock = ({ name, imageUrl, price, types, sizes }) => {
 			<div className="pizza-block__selector">
 				<ul>
 					{aviableType.map((type, index) =>
-						<li key={type.id}
+						<li key={type}
 							onClick={() => onSelectType(index)}
 							className={classNames({
 								active: activeType === index,
