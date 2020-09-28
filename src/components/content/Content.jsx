@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import Menu from './menu/Menu'
 import PizzaBlock from './pizzaBlock/PizzaBlock';
 
@@ -15,8 +15,6 @@ let Content = ({ items }) => {
 				{items.map((obj) => (
 					<PizzaBlock key={obj.id} {...obj} />
 				))}
-
-
 
 			</div>
 		</div >
